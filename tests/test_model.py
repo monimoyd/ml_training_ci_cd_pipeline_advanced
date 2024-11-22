@@ -8,7 +8,7 @@ import torchvision
 from torchvision.datasets import MNIST
 from torch.utils.data import DataLoader
 from src.utils import count_parameters, validate_model, add_gaussian_noise, random_rotation, random_brightness
-sys.path.append('../src')
+#sys.path.append('../src')
 
 class TestModel(unittest.TestCase):
     def setUp(self):
