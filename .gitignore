@@ -1,0 +1,15 @@
+# ignore ALL .pth files
+*.pth
+
+# ignore ALL files in ANY directory named __pycache__
+__pycache__/
+
+# ignore ALL files in ANY directory named data
+data/
+
+*.pyc 
+.pytest_cache/
+
+
+
+
