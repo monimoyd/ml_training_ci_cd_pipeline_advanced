@@ -40,5 +40,12 @@ The tests check for:
 i. Model parameter count (< 25000)
 ii.Input shape compatibility (28x28)
 iii.Model accuracy (> 95%)
+iv. Test rotation invariance of model
+v. Test the size and shape of MNIST dataset
+vi. Test if classes are balanced in the MNIST dataset
+vii. Test data integrity and statistical properties
+
+6. Augemented Images from MNIST
+![Build Status](https://github.com/monimoyd/ml_training_ci_cd_pipeline_advanced/all_digit_augmentation.png)
 
 

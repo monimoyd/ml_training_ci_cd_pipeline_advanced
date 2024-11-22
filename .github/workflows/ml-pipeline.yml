@@ -30,7 +30,7 @@ jobs:
     - name: Run tests
       run: pytest tests/test_model.py -v
       
-    - name: Generate MINIST augmented images
+    - name: Generate MNIST augmented images
       run: python src/utils.py 
     
     - name: Upload trained model
